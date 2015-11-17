@@ -1,0 +1,25 @@
+{
+  "name": "dygraphs-commonjs",
+  "version": "1.1.1-alpha",
+  "description": "CommonJS wrapper around the main dygraphs package.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motiz88/dygraphs-commonjs.git"
+  },
+  "author": "Moti Zilberman <motiz88@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motiz88/dygraphs-commonjs/issues"
+  },
+  "homepage": "https://github.com/motiz88/dygraphs-commonjs#readme",
+  "devDependencies": {
+    "dygraphs": "^1.1.1",
+    "exports-loader": "^0.6.2",
+    "webpack": "^1.12.6"
+  }
+}
